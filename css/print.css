@@ -1,0 +1,14 @@
+/* Print
+---------------------------------------------------------------------------------------------------------------*/
+
+@media print {
+.noprint{display:none;}
+.printcolor {
+    background-color: #FFFFFF !important;
+    -webkit-print-color-adjust: exact; 
+}
+.printheadcolor {
+    background-color: #CCC !important;
+    -webkit-print-color-adjust: exact; 
+}
+}
